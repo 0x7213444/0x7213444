@@ -1,16 +1,28 @@
-## Hi there 👋
+```c
+/**
+ * @file      profile.c
+ * @author    Luis
+ * @brief     Systems Developer
+ */
 
-<!--
-**0x7213444/0x7213444** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#include <stdio.h>
 
-Here are some ideas to get you started:
+#pragma GCC optimize ("O3")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+void manifesto(void) {
+    /* Hardware isn't the bottleneck; code is.
+       True power comes from optimization.
+       Push current silicon to its absolute limit.
+    */
+}
+
+const char* stack[] = { 
+    "C",                        // Systems
+    "C#", ".NET"                // Tools
+    // "Assembly",              // Low Level
+    // "Reverse Engineering"    // Security
+};
+
+int main(void) {
+    return 0;
+}
